@@ -1,0 +1,190 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.6;
+    padding: 15px;  
+    background-color: #f8f9fa; 
+    color: #202122;
+}
+
+/* Header styling */
+header {
+    background-color: #004d98;
+    color: #ffffff; 
+    padding: 10px; 
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+    width: 80%; /* Set lebar header sama dengan main */
+    margin: 0 auto; /* Center header */
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+header nav ul li a {
+    color: #0645ad;
+    text-decoration: none;
+}
+
+nav {
+    background-color:  #ffffff;
+    padding: 5px; 
+    font-family: 'Lato', sans-serif ;
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}  
+
+nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-around; 
+}
+
+nav ul li {
+    display: inline; 
+}
+
+nav ul li a {
+    text-decoration: none; 
+    color: white;
+    padding: 10px 20px;
+    display: block;
+    border-radius: 5px; 
+}  
+
+nav ul li a:hover {
+    background-color: #575757; 
+    color: #ffffff; 
+    font-weight: bold;
+}  
+
+/* Main styling */
+main {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem 0;
+}
+
+/* Article Sejarah styling */
+article#Sejarah {
+    margin-bottom: 2rem; /* Jarak antara artikel dengan artikel berikutnya */
+}
+
+article#Sejarah h4 {
+    margin-bottom: 0.5rem; /* Jarak antara judul dengan paragraf pertama */
+}
+
+article#Sejarah p {
+    text-align: justify;
+}
+
+article#Sejarah ul {
+    padding-left: 20px; /* Jarak indentasi untuk nested list */
+}
+
+article#Sejarah ul li {
+    margin-bottom: 5px; /* Jarak antara setiap item list */
+}
+
+#Sejarah ul {
+    list-style-type: none; /* Menghilangkan titik pada ul di dalam artikel dengan id="Sejarah" */
+    padding-left: 0; /* Menghilangkan padding kiri bawaan dari ul */
+}
+
+#Sejarah ul li {
+    margin-bottom: 10px; /* Memberikan margin bawah pada setiap item dalam daftar */
+}
+
+/* Content styling */
+#content {
+    background-color: white;
+    padding: 1rem;
+    width: 70%;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Aside styling */
+aside {
+    background-color: white;
+    padding: 1rem;
+    width: 25%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+aside table {
+    width: 100%;
+    margin-top: 1rem;
+    border-collapse: collapse;
+}
+
+aside table th,
+aside table td {
+    padding: 0.5rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+aside .fc-barca-logo {
+    display: block;
+    margin: 0 auto;
+    width: 80px;
+    height: auto;
+}
+
+/* Footer styling */
+footer {
+    color: black;
+    text-align: center;
+    padding: 1rem 0;
+    width: 100%;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.float-left {
+    float: left;
+    margin-right: 15px; 
+    margin-bottom: 15px; 
+    max-width: 300px; 
+}
+
+.float-right {
+    float: right;
+    margin-left: 15px; 
+    margin-top: 15px;
+    margin-bottom: 15px; 
+    max-width: 300px; 
+}
+
+.halo-dek{
+    margin: 10px;
+    font-size: medium;
+}
